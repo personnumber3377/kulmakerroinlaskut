@@ -1,0 +1,7 @@
+\begin{table}[H]
+\centering
+\caption{Lämpötila- ja jännitemittaukset}
+\label{tab:temp_voltage}
+\scalebox{0.9}{ % Skaalataan hiukan, jotta saadaan mahtumaan samalle sivulle
+\begin{tabular}{cc}
+Lämpötila ($^\circ$C) & Jännite (V) \\ \hline
