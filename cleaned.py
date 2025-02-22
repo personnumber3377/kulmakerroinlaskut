@@ -103,6 +103,6 @@ plt.legend()
 
 # Save the plot as vector graphics:
 
-plt.savefig('plot.eps', format='eps', bbox_inches='tight')  # Save as SVG
+plt.savefig('plot.eps', format='eps', bbox_inches='tight')  # Save as EPS
 
 plt.show()
