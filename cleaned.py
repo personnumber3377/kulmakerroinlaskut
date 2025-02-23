@@ -97,7 +97,7 @@ plt.errorbar(temp_inverse, sigmat_val, yerr=y_error, fmt='o', capsize=5, ecolor=
 plt.plot(temp_inverse, fitted_line, color="red", label="Sovitettu suora")
 plt.plot(x_coords, y_coords_1, linestyle='--', color='gray', label='Virhesuora 1')
 plt.plot(x_coords, y_coords_2, linestyle='--', color='gray', label='Virhesuora 2')
-plt.xlabel("Lämpötilan käänteisluku 1/T (°C^(-1))")
+plt.xlabel("Lämpötilan käänteisluku 1/T (°K^(-1))")
 plt.ylabel("Luonnollinen logaritmi johtavuudesta ln(σ) (ei yksikköä)")
 plt.legend()
 
